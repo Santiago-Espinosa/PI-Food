@@ -1,0 +1,83 @@
+.background {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("../../images/fondo3.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.rota-horizontal{
+    transform: scaleX(-1);
+  }
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 25em;
+    min-height: 25em;
+    padding: 4em;
+    border: 5px solid rgba(30, 49, 28, 0.514);
+    box-shadow: rgba(23, 40, 230, 0.438) 0px 0px 500px 54px, rgba(86, 134, 38, 0.336) 0px 0px 15px 10px;
+    background-image: url("../../images/tabla.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.card > img {
+    width: 23.5em;
+}
+
+.text {
+    color: #202B40;
+}
+
+.button {
+  align-self: center;
+  background-color: rgba(32, 43, 64, 0.63);
+  border: #e2e2e2 solid 3px;
+  color: #e2e2e2;
+  cursor: pointer;
+  font-size: 1.3em;
+  padding: .75rem;
+  border-bottom-left-radius: 20px 255px;
+  border-bottom-right-radius: 225px 20px;
+  border-top-left-radius: 255px 15px;
+  border-top-right-radius: 15px 225px;
+}
+
+.button:hover {
+  transform: translateY(2px);
+}
+
+.socialDiv {
+    display: flex;
+    justify-content: center;
+    gap: 0.5em;
+    align-items: center;
+}
+
+.socialDiv img {
+    width: 3em;
+}
+
+.socialDiv>a {
+    display: flex;
+    align-items: center;
+    gap: 0.3em;
+    color: rgb(32, 43, 64);
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: large;
+}
+.socialDiv>a:hover{
+    scale: 1.1;
+}
+.socialDiv>a:active{
+    scale: 1;
+}
