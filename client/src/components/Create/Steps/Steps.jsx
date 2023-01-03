@@ -57,7 +57,7 @@ export default function Steps(props) {
     return (
         <div className={style.stepsConteiner}>
             <label >
-                <h3>Pasos</h3>
+                <h3>Steps</h3>
 
                 <textarea className={style.textarea}
                     value={step}
@@ -73,7 +73,7 @@ export default function Steps(props) {
             </label>
 
             <div className={style.currentSteps}>
-                <h3>Lista de pasos:</h3>
+                <h3>Step List:</h3>
                 <div >
                     {
                     currentSteps[0]? currentSteps.map(([key, value]) => <span key={key}>
@@ -89,4 +89,4 @@ export default function Steps(props) {
             </div>
         </div>
     )
-}
+} 
